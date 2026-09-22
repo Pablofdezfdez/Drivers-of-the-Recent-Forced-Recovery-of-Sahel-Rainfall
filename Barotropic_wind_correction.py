@@ -33,7 +33,7 @@ from windspharm.xarray import VectorWind
 
 
 
-########### Cargo las funciones que me dio Spencer Hill #####################
+########### The following two functions were shared by Spencer Hill (CUNY) #####################
 def uv_col_budg_adj(u_col_int, v_col_int, tendency, source,
                     lat_str="lat", lon_str="lon", time_str="time"):
     """Apply the column tracer budget adjustment method to enforce closure.
